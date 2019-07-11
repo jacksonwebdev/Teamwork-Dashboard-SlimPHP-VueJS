@@ -1,0 +1,74 @@
+
+
+body > .grid {
+    height: 100%;
+}
+
+.auth.grid {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #DADADA;
+  
+    & > .column {
+      max-width: 450px;
+    }
+}
+
+.floating.column {
+    max-width: 1400px;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.ui.container.flash {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.ui.inverted.segment .ui.items>.item>.content>a.header,
+.ui.inverted.segment .ui.items>.item .meta,
+.ui.inverted.segment .ui.items>.item>.content>.description,
+.ui.inverted.segment .ui.statistic>.label,
+.ui.inverted.segment .ui.statistics .statistic>.label,
+.ui.inverted.segment .ui.statistic>.value,
+.ui.inverted.segment .ui.statistics .statistic>.value
+{
+    color:white;
+}
+
+.item .ui.large.progress{
+    margin: 0;
+}
+
+.tiny.statistic.hours-left{
+    font-size: 2rem;
+}
+  
+.#{$woo_class} {
+    .ui.progress { background: $woo_color }
+}
+
+.#{$magento_class} {
+    .ui.progress { background: $magento_color }
+}
+
+.#{$web_app_class} {
+    .ui.progress { background: $web_app_color }
+}

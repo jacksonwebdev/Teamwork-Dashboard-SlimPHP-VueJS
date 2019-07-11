@@ -1,0 +1,17 @@
+// Styles related to dashboard
+// starting with importing semantic. 
+// TODO - bring in semantic piecemeal. For now we'll just bring in it all and worry about semantics later (heh)
+@import "semantic-ui";
+
+// then font awesome
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+
+// bring in our baseline settings / styles
+@import 'config';
+
+// bring in partials
+@import 'partials/partials';
